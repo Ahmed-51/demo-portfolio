@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Projects Completed</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f5f5f5;
+  }
+  h2 {
+    max-width: 900px;
+    margin: 0 auto 24px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 300px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .card h5 {
+    margin: 4px 0;
+    color: #cf0b0b;
+    font-weight: 400;
+  }
+  .card small {
+    color: #666;
+    display: block;
+    margin-top: 8px;
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<h2>Projects Completed</h2>
+<div class="container">
+  <small style="display: block; color: #666; margin-bottom: 16px;">
+    These are just a few projects I’ve worked on recently— added off the top of my head! I’ve recently started keeping track of my work to better showcase my skills in web development, automation, and data integration.
+  </small>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h3>Shopify Cart Backend</h3>
+    <h5>Node.js, Shopify, GraphQL, MongoDB</h5>
+    <small>Developed the backend in Node.js for a Shopify store, handling cart persistence per user. On user login, fetched user-specific cart data from the database and sent it to the frontend. Also on cart updates (add/remove product or, change quantity), received the data from frontend and updated the user-specific entry in the database accordingly.</small>
+  </div>
+  
+  <div class="card">
+    <h3>Jellyland Website Backend</h3>
+    <h5>Shopify Remix, GraphQL, Apps Script</h5>
+    <small>Worked on a Shopify Remix Hydrogen project. Integrated GraphQL API to fetch latest and best-selling products, built corresponding UI and product card components in JSX, and displayed them. Also fixed the contact form using Google Apps Script to send submitted data to Google Sheets.</small>
+  </div>
+
+  <div class="card">
+    <h3>Shopify Tiered Discounts</h3>
+    <h5>Shopify Functions, Liquid, GraphQL</h5>
+    <small>Worked on a Shopify Liquid project using Shopify Functions and GraphQL API to implement tier-based backend-only discount logic. Fetched customer data, applied custom pricing rules, and updated the UI accordingly for eligible users.</small>
+  </div>
+
+  <div class="card">
+    <h3>Google Sheets with Email Integration</h3>
+    <h5>Apps Script</h5>
+    <small>Connected a frontend form to Google Sheets using Apps Script as a database and connected email to mail that to the admin.</small>
+  </div>
+
+  <div class="card">
+    <h3>ERC-20 Token Deployment</h3>
+    <h5>Remix IDE, Ethereum, MetaMask</h5>
+    <small>Created and deployed a custom ERC-20 token on the Ethereum blockchain using Remix IDE. Handled all setup steps including smart contract development, wallet integration via MetaMask, and deployment credentials. Token is publicly viewable on Etherscan.</small>
+  </div>
+
+  <div class="card">
+    <h3>Marketing Data Integration</h3>
+    <h5>Apps Script, Shopify Facebook, Google Ads, BigQuery</h5>
+    <small>Completed multiple projects using fetch, clean, and consolidate various types of data such as sales, spend, impressions, and clicks—calling APIs of multiple platforms including Shopify, Facebook Graph, Pinterest, Google Ads, and BigQuery using Google Apps Script and store them into Google Sheets and then format and mail them to admin.</small>
+  </div>
+
+  <div class="card">
+    <h3>Marketing Analytics AI Pipeline</h3>
+    <h5>n8n, PostgreSQL, GraphQL</h5>
+    <small>Built n8n workflows to fetch daily data from Facebook Graph API, Google Ads API, BigQuery, and Shopify GraphQL API, storing campaign, order, and analytics data into Postgres. Weekly, the data is retrieved and fed into a configured AI agent for trend analysis, performance metrics, and business recommendations.</small>
+  </div>
+
+  <div class="card">
+    <h3>Bangla Audio to AI Text</h3>
+    <h5>n8n, OpenAI, Google Drive</h5>
+    <small>Created an n8n workflow that takes Bangla audio files from Google Drive, transcribes and translates them to English using OpenAI Node, refines the text via an AI agent, and saves the final version back to Google Drive as a file.</small>
+  </div>
+
+  <div class="card">
+    <h3>Shopify Order Automation</h3>
+    <h5>Webhooks, Apps Script</h5>
+    <small>Built an automation using Shopify Webhooks and Google Apps Script to capture new order data on order creation, format it, store it in Google Sheets, and email it to the admin.</small>
+  </div>
+
+  <div class="card">
+    <h3>Technical Research</h3>
+    <h5>Various Topics</h5>
+    <small>Frequently conduct research on topics such as Shopify–WooCommerce order sync, Web3 web app development, cryptocurrency creation, and automation and data analysis by GCP and Apps Script, exploring their technical implementation and real-world impact.</small>
+  </div>
+</div>
+
+</body>
+</html>
